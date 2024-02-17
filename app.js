@@ -2,7 +2,6 @@ async function getmovie() {
     var name = document.querySelector(".input").value || "the avengers";
     var res = await fetch(`https://www.omdbapi.com/?t=${name}&apikey=9296fabe`);
     var data = await res.json();
-    console.log(data);
 
     if (data.Title === undefined) {
         document.querySelector(".poster").src = `404.png`;
@@ -24,7 +23,6 @@ async function getmovie() {
     document.querySelector(".lang").innerHTML = `${data.Language}`;
 
     var trailer = await gettrailer(data.imdbID);
-    console.log(trailer);
     document.querySelector(".trailer iframe").src = `https://www.youtube.com/embed/${trailer}`;
     
 }
