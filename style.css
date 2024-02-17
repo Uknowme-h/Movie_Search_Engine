@@ -192,3 +192,18 @@ footer {
     left:60.7rem;
     top:1.5rem;
 }
+
+.trailer{
+    padding-top: 50px;
+    padding-left:50px;
+    width: 50%;
+}
+#close{
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 7px;
+    color: white;
+    position: relative;
+    left: 20vw;
+}
