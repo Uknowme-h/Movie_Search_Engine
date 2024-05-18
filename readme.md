@@ -2,11 +2,17 @@
 
 A movie search engine with a user-friendly interface that displays basic information about movies and shows. It utilizes the OMDB API to fetch movie data and embeds trailers from YouTube.
 
+![image](https://github.com/Uknowme-h/Movie_Search_Engine/assets/152166858/04f55b0e-9c9d-40b1-9d03-fc32ede5909c)
+
+
 ## Features
 
 - Search for movies and shows by title
 - Display basic information about the searched movie or show
 - Embed the trailer from YouTube for the selected movie or show
+
+![image](https://github.com/Uknowme-h/Movie_Search_Engine/assets/152166858/04a93c33-4ab7-4b8d-9791-3841c9c4816f)
+
 
 ## Technologies Used
 
